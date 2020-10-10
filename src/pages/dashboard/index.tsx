@@ -38,7 +38,7 @@ export const Dashboard = () => {
           </NavLink>
         </div>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 p-6">
         <Switch>
           <Route exact path={path}>
             <Statistics />
