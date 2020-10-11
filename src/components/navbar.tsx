@@ -11,7 +11,7 @@ export const Navbar = () => {
   }, [location.pathname]);
 
   return (
-    <div className="flex justify-between items-center bg-gray-800 px-3 py-3">
+    <header className="flex justify-between items-center bg-gray-800 px-3 py-3">
       <NavLink exact to="/">
         <h6 className="font-bold text-2xl text-gray-300">Epsilon</h6>
       </NavLink>
@@ -32,6 +32,6 @@ export const Navbar = () => {
           </>
         )}
       </div>
-    </div>
+    </header>
   );
 };

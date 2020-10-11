@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Footer } from './components/footer';
 import { Navbar } from './components/navbar';
 import { Dashboard } from './pages/dashboard';
 import { Home } from './pages/home';
@@ -21,6 +22,7 @@ const App = () => {
             <NoMatch />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
