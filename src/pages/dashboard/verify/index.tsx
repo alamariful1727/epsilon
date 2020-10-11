@@ -42,15 +42,13 @@ export const Verify = () => {
   }, []);
 
   return (
-    <div className="">
-      <Switch>
-        <Route exact path={path}>
-          <VerifyingTable data={data} url={url} />
-        </Route>
-        <Route path={`${path}/details/:itemName`}>
-          <ItemDetails />
-        </Route>
-      </Switch>
-    </div>
+    <Switch>
+      <Route exact path={path}>
+        <VerifyingTable data={data} url={url} />
+      </Route>
+      <Route path={`${path}/details/:title`}>
+        <ItemDetails />
+      </Route>
+    </Switch>
   );
 };

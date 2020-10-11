@@ -210,7 +210,7 @@ export const VerifyingTable = (props: EnhancedTableProps) => {
                   })
               ) : (
                 <TableRow>
-                  <TableCell align="right">No bookings</TableCell>
+                  <TableCell align="right">No data</TableCell>
                 </TableRow>
               )}
               {emptyRows > 0 && (
