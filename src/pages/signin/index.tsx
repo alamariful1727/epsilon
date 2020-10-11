@@ -10,7 +10,7 @@ export const Signin = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-12">
+    <div className="flex-1 flex flex-col items-center p-12">
       <h1 className="text-2xl font-semibold">Sign in</h1>
       <div className="max-w-lg">
         <form onSubmit={handleSubmit}>

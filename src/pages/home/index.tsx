@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Home = () => {
   return (
-    <div className="flex flex-col space-y-10 items-center text-justify p-12">
+    <div className="flex-1 flex flex-col space-y-10 items-center text-justify p-12">
       <h1 className="text-4xl font-semibold">EPSILON SOLUTIONS USA SERVICES</h1>
 
       <div>

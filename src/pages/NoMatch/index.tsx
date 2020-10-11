@@ -5,7 +5,7 @@ export const NoMatch = () => {
   let location = useLocation();
 
   return (
-    <div className="p-12">
+    <div className="flex-1 p-12">
       <h2 className="font-semibold text-red-600">
         No match for <code>{location.pathname}</code>
       </h2>
