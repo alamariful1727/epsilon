@@ -26,7 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "yarn tw-build && react-scripts build",
+    "build": "yarn build:tw-css && react-scripts build",
     "tw-build": "npx tailwindcss build src/styles/tailwind.css -o src/styles/index.css",
     "build:tw-css": "postcss src/styles/tailwind.css -o src/styles/index.css",
     "watch:tw-css": "postcss src/styles/tailwind.css -o src/styles/index.css -w",
